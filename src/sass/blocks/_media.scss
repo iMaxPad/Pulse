@@ -384,7 +384,33 @@
                 margin: 20px;
             }
         
-        }   
+        } 
+        .footer {
+            &__info{
+                width: 280px;
+                height: 200px;
+                padding: 40px 40px 30px 40px;
+            }
+            &__addr{
+                margin-bottom: 15px;
+                font-size: 14px;
+                line-height: 14px;
+            }
+            &__phone {
+                font-size: 14px;
+                line-height: 14px;
+                margin-bottom: 25px;
+            }
+            &__social-item {
+                width: 40px;
+                height: 40px;
+                margin: 0 10px;
+            }
+            .icon-facebook, .icon-instagram, .icon-pinterest {
+                text-decoration: none;
+                font-size: 16px;
+            }
+        }  
     }
 
     @media (max-width: 375px) {
