@@ -127,21 +127,25 @@
         &__list {
             position: relative;
             width: 50%;
-            margin-left: 20px;
             transform: translate(0%);
-            padding-right: 20px;
-            transition: 0.5s all;
-            padding-left: 19px;
-            margin-bottom: 0;
-            list-style-type: none;
+            transition: 0.5s transform;
             &_active {
                 transform: translate(-100%);
                 margin-left: 0;
+                margin-bottom: 0px;
             }
+        &__ul {
+            padding-left: 19px;
+            margin-bottom: 0;
+            margin-left: 20px;
+            list-style-type: none;
+            padding-right: 20px;
+        }
             li {
                 position: relative;
                 font-size: 14px;
                 font-weight: 300;
+                list-style-type: none;
                 color: #555;
                 margin-bottom: 20px;
                 &::before {
